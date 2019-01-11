@@ -67,6 +67,6 @@ class Owner
   end
   
   def list_pets
-    pets.
+    puts "I have "
   end
 end

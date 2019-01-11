@@ -27,8 +27,8 @@ class Owner
     self.all.clear
   end
   
-  def buy_fish
-    
+  def buy_fish(fish)
+    fish = Fish.new(fish)
   end
   
   def buy_cat

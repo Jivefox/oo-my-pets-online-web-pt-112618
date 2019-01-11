@@ -9,7 +9,7 @@ class Owner
     @@all << self
   end
   
-  def species(species)
+  def species
     @pets[species] = []
   end
   

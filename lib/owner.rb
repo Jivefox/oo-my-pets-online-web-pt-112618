@@ -8,8 +8,8 @@ class Owner
     @pets = {fishes: [], cats: [], dogs: []}
   end
   
-  def species
-    
+  def species(species)
+    @pets[species] = 
   end
   
   def self.all
